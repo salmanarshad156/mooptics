@@ -1,0 +1,52 @@
+/*
+Theme Name: HK Ocean
+Theme URI: 
+Description: OceanWP WordPress theme example child theme.
+Author: HK
+Author URI: 
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+
+/* MOBIILIMENU
+.sidr-class-dropdown-toggle:before {
+	content: "\f107";
+	font-size: 18px;
+}
+.sidr-class-dropdown-menu li.active>a>.sidr-class-dropdown-toggle:before {
+	content: "\f00d";
+	font-size: 16px;
+}
+.oceanwp-sidr-overlay {
+	background: rgba(0,0,0,0.74);
+background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.74) 0%, rgba(0,0,0,0.82) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,0,0,0.74)), color-stop(100%, rgba(0,0,0,0.82)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.74) 0%, rgba(0,0,0,0.82) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.74) 0%, rgba(0,0,0,0.82) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.74) 0%, rgba(0,0,0,0.82) 100%);
+background: radial-gradient(ellipse at center, rgba(0,0,0,0.44) 0%, rgba(0,0,0,0.72) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+}
+ */
+
+
+/* FOOTER */
+#footer-widgets {
+	padding: 0;
+}
+#footer .container {
+	width: 100%;
+	max-width: 100%;
+}
+#footer-widgets {
+	padding: 0;
+	margin: 0;
+}
+#footer .elementor-row{
+    width:1200px !important;
+    max-width:90% !important;
+    margin:0 auto;
+}

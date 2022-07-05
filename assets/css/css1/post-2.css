@@ -1,0 +1,492 @@
+.elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-container {
+    min-height: 63vh;
+}
+
+.elementor-2 .elementor-element.elementor-element-ioxaerv:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url("../../img/mo-optics-banner.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-background-overlay {
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-2 .elementor-element.elementor-element-ioxaerv {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -45px;
+    margin-bottom: 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-xblpsqg > .elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.elementor-2 .elementor-element.elementor-element-xblpsqg > .elementor-element-populated > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-2 .elementor-element.elementor-element-9d7cc33 {
+    text-align: right;
+    width: auto;
+    max-width: auto;
+    bottom: -22vh;
+}
+
+.elementor-2 .elementor-element.elementor-element-9d7cc33 .elementor-heading-title {
+    color: #585f65;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.elementor-2 .elementor-element.elementor-element-9d7cc33 > .elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+body:not(.rtl) .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+    left: 262px;
+}
+
+body.rtl .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+    right: 262px;
+}
+
+.elementor-2 .elementor-element.elementor-element-1cdbb4c > .elementor-element-populated > .elementor-background-overlay {
+    opacity: 0.5;
+}
+
+.elementor-2 .elementor-element.elementor-element-1cdbb4c > .elementor-element-populated {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-1cdbb4c > .elementor-element-populated > .elementor-background-overlay {
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-2 .elementor-element.elementor-element-1cdbb4c > .elementor-element-populated > .elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta__content {
+    min-height: 450px;
+    text-align: left;
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta__title {
+    font-size: 27px;
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta__description {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta__description:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta__button {
+    font-size: 13px;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta:not(:hover) .elementor-cta__bg-overlay {
+    background-color: rgba(33, 131, 202, 0.54);
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta__bg {
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta:hover .elementor-cta__bg-overlay {
+    background-color: rgba(31, 152, 226, 0.5);
+}
+
+.elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta .elementor-cta__bg, .elementor-2 .elementor-element.elementor-element-1542ed6 .elementor-cta .elementor-cta__bg-overlay {
+    transition-duration: 1500ms;
+}
+
+.elementor-2 .elementor-element.elementor-element-364a640 > .elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-364a640 > .elementor-element-populated > .elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta__content {
+    min-height: 450px;
+    text-align: left;
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta__title {
+    font-size: 27px;
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta__description {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta__description:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta__button {
+    font-size: 13px;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta:not(:hover) .elementor-cta__bg-overlay {
+    background-color: rgba(33, 131, 202, 0.46);
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta__bg {
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta:hover .elementor-cta__bg-overlay {
+    background-color: rgba(33, 131, 202, 0.68);
+}
+
+.elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta .elementor-cta__bg, .elementor-2 .elementor-element.elementor-element-87a994a .elementor-cta .elementor-cta__bg-overlay {
+    transition-duration: 1500ms;
+}
+
+.elementor-2 .elementor-element.elementor-element-ef4dd30 > .elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-ef4dd30 > .elementor-element-populated > .elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta__content {
+    min-height: 450px;
+    text-align: left;
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta__title {
+    font-size: 27px;
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta__description {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta__description:not(:last-child) {
+    margin-bottom: 34px;
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta__button {
+    font-size: 13px;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta:not(:hover) .elementor-cta__bg-overlay {
+    background-color: rgba(33, 131, 202, 0.44);
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta__bg {
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta:hover .elementor-cta__bg-overlay {
+    background-color: rgba(33, 131, 202, 0.61);
+}
+
+.elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta .elementor-cta__bg, .elementor-2 .elementor-element.elementor-element-81dd550 .elementor-cta .elementor-cta__bg-overlay {
+    transition-duration: 1500ms;
+}
+
+.elementor-2 .elementor-element.elementor-element-7133909 > .elementor-container {
+    max-width: 639px;
+}
+
+.elementor-2 .elementor-element.elementor-element-7133909:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-7133909 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: radial-gradient(at bottom center, #f7f7f7 68%, #ffffff 100%);
+}
+
+.elementor-2 .elementor-element.elementor-element-7133909 > .elementor-background-overlay {
+    background-image: url("../../img/mooptics-element.svg");
+    background-position: 50% 149px;
+    background-repeat: no-repeat;
+    background-size: 841px auto;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-2 .elementor-element.elementor-element-7133909 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 70px 0px 70px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-05d420a > .elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-05d420a > .elementor-element-populated > .elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-00fe99a {
+    text-align: center;
+}
+
+.elementor-2 .elementor-element.elementor-element-00fe99a .elementor-heading-title {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.elementor-2 .elementor-element.elementor-element-00fe99a > .elementor-widget-container {
+    margin: 0px 0px 60px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-bd474df {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.elementor-2 .elementor-element.elementor-element-69b6a72 > .elementor-container {
+    max-width: 765px;
+}
+
+.elementor-2 .elementor-element.elementor-element-69b6a72 {
+    padding: 80px 0px 80px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-5629b96 > .elementor-element-populated {
+    margin: 0px 0px 0px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-5629b96 > .elementor-element-populated > .elementor-widget-wrap {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-cac2a1e {
+    padding: 0px 0px 26px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-0d9ff3f {
+    text-align: right;
+}
+
+.elementor-2 .elementor-element.elementor-element-b26266e {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.elementor-2 .elementor-element.elementor-element-e8743e9 {
+    padding: 0px 0px 26px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-9d80a85 {
+    text-align: right;
+}
+
+.elementor-2 .elementor-element.elementor-element-cb3392d {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.elementor-2 .elementor-element.elementor-element-241784a {
+    padding: 0px 0px 26px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-ae33a49 {
+    text-align: right;
+}
+
+.elementor-2 .elementor-element.elementor-element-66a9687 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.elementor-2 .elementor-element.elementor-element-09974fe {
+    padding: 0px 0px 26px 0px;
+}
+
+.elementor-2 .elementor-element.elementor-element-28b38e0 {
+    text-align: right;
+}
+
+.elementor-2 .elementor-element.elementor-element-79e43e2 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+@media (min-width: 768px) {
+    .elementor-2 .elementor-element.elementor-element-7109d5a {
+        width: 23.137%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-861d5c7 {
+        width: 76.863%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-5f0cd74 {
+        width: 23.137%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-3aa519f {
+        width: 74.184%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-c1b858b {
+        width: 23.137%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-f69e953 {
+        width: 74.184%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-22468d6 {
+        width: 23.137%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-44ef809 {
+        width: 74.184%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .elementor-2 .elementor-element.elementor-element-ioxaerv:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-size: cover;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-background-overlay {
+        background-position: 0px 0px;
+    }
+
+    body:not(.rtl) .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+        left: 37px;
+    }
+
+    body.rtl .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+        right: 37px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+        bottom: -140px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-7133909 > .elementor-background-overlay {
+        background-position: 0px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-container {
+        min-height: 170vw;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-ioxaerv:not(.elementor-motion-effects-element-type-background), .elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-position: -448px 0px;
+        background-size: cover;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-ioxaerv > .elementor-background-overlay {
+        background-position: 0px 0px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-ioxaerv {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+        text-align: left;
+        width: 100%;
+        max-width: 100%;
+        bottom: -215px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-9d7cc33 .elementor-heading-title {
+        font-size: 34px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-9d7cc33 > .elementor-widget-container {
+        margin: 1px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    body:not(.rtl) .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+        left: 0px;
+    }
+
+    body.rtl .elementor-2 .elementor-element.elementor-element-9d7cc33 {
+        right: 0px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-7133909 > .elementor-background-overlay {
+        background-position: 0px 0px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-0d9ff3f {
+        text-align: center;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-0d9ff3f img {
+        width: 30%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-b26266e > .elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-9d80a85 {
+        text-align: center;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-9d80a85 img {
+        width: 30%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-ae33a49 {
+        text-align: center;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-ae33a49 img {
+        width: 30%;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-28b38e0 {
+        text-align: center;
+    }
+
+    .elementor-2 .elementor-element.elementor-element-28b38e0 img {
+        width: 30%;
+    }
+}

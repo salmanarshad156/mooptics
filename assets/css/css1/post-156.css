@@ -1,0 +1,198 @@
+.elementor-156 .elementor-element.elementor-element-902501d > .elementor-container {
+    min-height: 590px;
+}
+
+.elementor-156 .elementor-element.elementor-element-902501d > .elementor-container > .elementor-row > .elementor-column > .elementor-column-wrap > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+
+.elementor-156 .elementor-element.elementor-element-902501d:not(.elementor-motion-effects-element-type-background), .elementor-156 .elementor-element.elementor-element-902501d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #efefef;
+}
+
+.elementor-156 .elementor-element.elementor-element-902501d > .elementor-background-overlay {
+    background-image: url("../../img/mooptics-element-1.svg");
+    background-position: 19% 78%;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-156 .elementor-element.elementor-element-902501d {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: -45px;
+    margin-bottom: 0px;
+}
+
+.elementor-156 .elementor-element.elementor-element-19aefe0 {
+    text-align: right;
+}
+
+.elementor-156 .elementor-element.elementor-element-19aefe0 .elementor-heading-title {
+    color: #585f65;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.elementor-156 .elementor-element.elementor-element-19aefe0 > .elementor-widget-container {
+    padding: 200px 0px 0px 0px;
+}
+
+.elementor-156 .elementor-element.elementor-element-e37c8c6 {
+    width: 774px;
+    max-width: 774px;
+    top: -122px;
+}
+
+body:not(.rtl) .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+    left: 186px;
+}
+
+body.rtl .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+    right: 186px;
+}
+
+.elementor-156 .elementor-element.elementor-element-1379b58 {
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+.elementor-156 .elementor-element.elementor-element-ba6ac2d > .elementor-element-populated {
+    margin: 0px 0px 80px 0px;
+    --e-column-margin-right: 0px;
+    --e-column-margin-left: 0px;
+}
+
+.elementor-156 .elementor-element.elementor-element-29377f0 > .elementor-widget-container {
+    margin: 0% 20% 0% 0%;
+}
+
+.elementor-156 .elementor-element.elementor-element-0e9fec5 {
+    margin-top: 0px;
+    margin-bottom: 120px;
+}
+
+.elementor-156 .elementor-element.elementor-element-ad8f060 .elementor-cta__content {
+    text-align: center;
+}
+
+.elementor-156 .elementor-element.elementor-element-ad8f060 .elementor-cta__button {
+    color: #ffffff;
+    background-color: #2183ca;
+    border-width: 0px;
+    border-radius: 88px;
+}
+
+.elementor-156 .elementor-element.elementor-element-ad8f060 .elementor-cta .elementor-cta__bg, .elementor-156 .elementor-element.elementor-element-ad8f060 .elementor-cta .elementor-cta__bg-overlay {
+    transition-duration: 1500ms;
+}
+
+.elementor-156 .elementor-element.elementor-element-fe88dc2 .elementor-cta__content {
+    text-align: center;
+}
+
+.elementor-156 .elementor-element.elementor-element-fe88dc2 .elementor-cta__button {
+    color: #ffffff;
+    background-color: #2183ca;
+    border-width: 0px;
+    border-radius: 88px;
+}
+
+.elementor-156 .elementor-element.elementor-element-fe88dc2 .elementor-cta .elementor-cta__bg, .elementor-156 .elementor-element.elementor-element-fe88dc2 .elementor-cta .elementor-cta__bg-overlay {
+    transition-duration: 1500ms;
+}
+
+.elementor-156 .elementor-element.elementor-element-1d6f121 .elementor-cta__content {
+    text-align: center;
+}
+
+.elementor-156 .elementor-element.elementor-element-1d6f121 .elementor-cta__button {
+    color: #ffffff;
+    background-color: #2183ca;
+    border-width: 0px;
+    border-radius: 88px;
+}
+
+.elementor-156 .elementor-element.elementor-element-1d6f121 .elementor-cta .elementor-cta__bg, .elementor-156 .elementor-element.elementor-element-1d6f121 .elementor-cta .elementor-cta__bg-overlay {
+    transition-duration: 1500ms;
+}
+
+@media (max-width: 1024px) {
+    .elementor-156 .elementor-element.elementor-element-902501d > .elementor-container {
+        min-height: 400px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-902501d > .elementor-background-overlay {
+        background-position: 0px 0px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-19aefe0 {
+        text-align: right;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+        width: 710px;
+        max-width: 710px;
+        top: -140px;
+    }
+
+    body:not(.rtl) .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+        left: -2px;
+    }
+
+    body.rtl .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+        right: -2px;
+    }
+}
+
+@media (max-width: 767px) {
+    .elementor-156 .elementor-element.elementor-element-902501d > .elementor-container {
+        min-height: 200px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-902501d > .elementor-background-overlay {
+        background-position: 0px 0px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-902501d {
+        margin-top: 00px;
+        margin-bottom: 00px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-8951ad2 > .elementor-element-populated {
+        margin: 050px 0px 0px 0px;
+        --e-column-margin-right: 0px;
+        --e-column-margin-left: 0px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-19aefe0 {
+        text-align: left;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-19aefe0 > .elementor-widget-container {
+        margin: 200px 0px 0px 0px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+        text-align: right;
+        top: -563px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-e37c8c6 > .elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+    }
+
+    body:not(.rtl) .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+        left: -239px;
+    }
+
+    body.rtl .elementor-156 .elementor-element.elementor-element-e37c8c6 {
+        right: -239px;
+    }
+
+    .elementor-156 .elementor-element.elementor-element-1379b58 {
+        margin-top: 60px;
+        margin-bottom: 0px;
+    }
+}
