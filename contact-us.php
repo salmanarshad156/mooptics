@@ -14,8 +14,8 @@ if (isset($_POST["email"])) {
     $subject = $_POST["subject"];
     $description = $_POST["message"];
 
-    $to_email = 'salmanalee1997@gmail.com';
-    $subject = 'New query from website';
+    $to_email = 'info@optergouk.com';
+    $subject = 'New query from mooptics.com';
     $message = "<html><head><title>HTML email</title></head><body><strong>Name:</strong> $fname<br/><strong>Contact:</strong> $contact<br/><strong>Email:</strong> $email<br/><strong>Location:</strong> $location<br/><strong>Subject:</strong> $subject<br/><strong>Description:</strong> $description</body></html>";
 
     $headers = "MIME-Version: 1.0" . "\r\n";
@@ -172,21 +172,12 @@ if (isset($_POST["email"])) {
                                                                                                     <div class="elementor-text-editor elementor-clearfix">
                                                                                                         <p>
                                                                                                             <b>Address</b><br/><span
-                                                                                                                    class="elementor-icon-list-text">Furuhällsvägen 1<br/></span><span
-                                                                                                                    class="elementor-icon-list-text">435 44 Mölnlycke<br/>Sweden</span>
+                                                                                                                    class="elementor-icon-list-text">Unit 6 Hackthorpe Hall, <br/></span><span
+                                                                                                                    class="elementor-icon-list-text"> Hackthorpe, Cumbria,<br/> CA10 2HX</span>
                                                                                                         </p>
-                                                                                                        <p><strong>Telephone</strong><br/>+46
-                                                                                                            (0)31 88 77
-                                                                                                            27</p>
+                                                                                                        <p><strong>Telephone</strong><br/>01768 606027</p>
                                                                                                         <p>
-                                                                                                            <strong>Fax</strong><br/>+46
-                                                                                                            (0)31 88 39
-                                                                                                            77</p>
-                                                                                                        <p>
-                                                                                                            <strong>Email</strong><br/>info@meridentoptergo.com
-                                                                                                        </p>
-                                                                                                        <p><strong>Personal
-                                                                                                                emails</strong><br/>firstname@meridentoptergo.com
+                                                                                                            <strong>Email</strong><br/>info@optergouk.com
                                                                                                         </p></div>
                                                                                                 </div>
                                                                                             </div>
