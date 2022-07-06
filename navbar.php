@@ -17,15 +17,15 @@
 <!--				</span>-->
 <!---->
 <!---->
-<!--            </div><!-- #top-bar-content -->-->
+<!--            </div><!-- #top-bar-content -->
 <!---->
 <!---->
-<!--        </div><!-- #top-bar-inner -->-->
+<!--        </div><!-- #top-bar-inner -->
 <!---->
 <!---->
-<!--    </div><!-- #top-bar -->-->
+<!--    </div><!-- #top-bar -->
 <!---->
-<!--</div><!-- #top-bar-wrap -->-->
+<!--</div><!-- #top-bar-wrap -->
 
 
 <div id="transparent-header-wrap" class="clr">

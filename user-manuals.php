@@ -157,13 +157,13 @@ include_once 'head.php'
                                                                                                             user manual:
                                                                                                         </div>
                                                                                                         <div class="keditable">
-                                                                                                            <strong><a href="https://mooptics.com/pdfs/flip-up_manual_eng.pdf"
+                                                                                                            <strong><a href="https://smile-mc-test.co.uk/mooptics/pdfs/flip-up_manual_eng.pdf"
                                                                                                                        target="">ENG</a></strong><br/><strong><a
-                                                                                                                        href="https://mooptics.com/pdfs/flip-up_manual_ger.pdf"
+                                                                                                                        href="https://smile-mc-test.co.uk/mooptics/pdfs/flip-up_manual_ger.pdf"
                                                                                                                         target="">GER</a></strong><br/><strong><a
-                                                                                                                        href="https://mooptics.com/pdfs/flip-up_manual_swe.pdf"
+                                                                                                                        href="https://smile-mc-test.co.uk/mooptics/pdfs/flip-up_manual_swe.pdf"
                                                                                                                         target="">SWE</a></strong><br/><strong><a
-                                                                                                                        href="https://mooptics.com/pdfs/flip-up_manual_fin.pdf"
+                                                                                                                        href="https://smile-mc-test.co.uk/mooptics/pdfs/flip-up_manual_fin.pdf"
                                                                                                                         target="">FIN</a></strong>
                                                                                                         </div>
                                                                                                     </div>
@@ -225,13 +225,13 @@ include_once 'head.php'
                                                                                     manual:
                                                                                 </div>
                                                                                 <div class="keditable"><a
-                                                                                            href="https://mooptics.com/pdfs/delight_manual_eng.pdf"
-                                                                                            target=""><strong>ENG</strong></a><br/><strong><a
-                                                                                                href="https://mooptics.com/pdfs/delight_manual_ger.pdf"
+                                                                                                href="https://smile-mc-test.co.uk/mooptics/pdfs/delight_manual_eng.pdf"
+                                                                                                target=""><strong>ENG</strong></a><br/><strong><a
+                                                                                                href="https://smile-mc-test.co.uk/mooptics/pdfs/delight_manual_ger.pdf"
                                                                                                 target="">GER</a></strong><br/><strong><a
-                                                                                                href="https://mooptics.com/pdfs/delight_manual_swe.pdf"
+                                                                                                href="https://smile-mc-test.co.uk/mooptics/pdfs/delight_manual_swe.pdf"
                                                                                                 target="">SWE</a></strong><br/><strong><a
-                                                                                                href="https://mooptics.com/pdfs/delight_manual_fin.pdf"
+                                                                                                href="https://smile-mc-test.co.uk/mooptics/pdfs/delight_manual_fin.pdf"
                                                                                                 target="">FIN</a></strong>
                                                                                 </div>
                                                                             </div>
