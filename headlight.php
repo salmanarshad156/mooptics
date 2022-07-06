@@ -4,6 +4,16 @@
 include_once 'head.php'
 ?>
 
+<style>
+    #site-header.transparent-header {
+        top: 45px;
+    }
+    @media screen and (max-width: 768px){
+        #site-header.transparent-header {
+            top: 0;
+        }
+    }
+</style>
 
 <link rel='stylesheet' href='assets/css/css1/post-152.css?ver=1654697382' media='all'/>
 

@@ -3,8 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="39d8670a-0818-4af0-befa-c405679952e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-fitting.php" beforeDir="false" afterPath="$PROJECT_DIR$/custom-fitting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyeglass-lenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/eyeglass-lenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eyeglasses.php" beforeDir="false" afterPath="$PROJECT_DIR$/eyeglasses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frames.php" beforeDir="false" afterPath="$PROJECT_DIR$/frames.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headlight.php" beforeDir="false" afterPath="$PROJECT_DIR$/headlight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magnigying-loupes.php" beforeDir="false" afterPath="$PROJECT_DIR$/magnigying-loupes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optics-and-ergonomics.php" beforeDir="false" afterPath="$PROJECT_DIR$/optics-and-ergonomics.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prism-lenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/prism-lenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prismspec.php" beforeDir="false" afterPath="$PROJECT_DIR$/prismspec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prospec.php" beforeDir="false" afterPath="$PROJECT_DIR$/prospec.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strainless-optics.php" beforeDir="false" afterPath="$PROJECT_DIR$/strainless-optics.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ttl-carrier-lenses.php" beforeDir="false" afterPath="$PROJECT_DIR$/ttl-carrier-lenses.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight-flipup-loupes.php" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight-flipup-loupes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ultralight-ttl-loupes.php" beforeDir="false" afterPath="$PROJECT_DIR$/ultralight-ttl-loupes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-manuals.php" beforeDir="false" afterPath="$PROJECT_DIR$/user-manuals.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vinkep-loupes.php" beforeDir="false" afterPath="$PROJECT_DIR$/vinkep-loupes.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,28 +71,30 @@
     <session id="-1447274961">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="2" />
+          <entry key="php" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="2" />
+          <entry key="PHP" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="3" />
+          <entry key="php" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="3" />
+          <entry key="PHP" value="83" />
         </counts>
       </usages-collector>
     </session>
@@ -86,19 +102,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/navbar.php">
+        <entry file="file://$PROJECT_DIR$/prism-lenses.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttl-carrier-lenses.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frames.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eyeglasses.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prospec.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prismspec.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/headlight.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ultralight-flipup-loupes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ultralight-ttl-loupes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-manuals.php">
+        <entry file="file://$PROJECT_DIR$/vinkep-loupes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="172" column="90" lean-forward="true" selection-end-line="286" />
+            <state relative-caret-position="441">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -136,7 +227,6 @@
       <find>shareLinks</find>
       <find>eicon</find>
       <find>https://mooptics.com/wp-content/uploads/2019/03/mooptics-element.svg</find>
-      <find>https://mooptics.com/</find>
       <find>&quot;urls&quot;: {&quot;assets&quot;: &quot;https:\/\/mooptics.com\/wp-content\/plugins\/elementor\/assets\/&quot;},</find>
       <find>https:\/\/mooptics.com\/wp-content\/plugins\/elementor\/assets\/</find>
       <find>mooptics</find>
@@ -145,6 +235,7 @@
       <find>fa fa-times</find>
       <find>zoom</find>
       <find>mooptics.com</find>
+      <find>https://mooptics.com/</find>
     </findStrings>
     <replaceStrings>
       <replace>assets/js/</replace>
@@ -174,6 +265,7 @@
       <replace>https://mooptics.com/pdfs/</replace>
       <replace>../img/mooptics-element.svg</replace>
       <replace>&quot;urls&quot;: {&quot;assets&quot;: &quot;assets&quot;},</replace>
+      <replace>https://smile-mc-test.co.uk/mooptics/</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -195,26 +287,11 @@
         <option value="$PROJECT_DIR$/assets/css/animations.css" />
         <option value="$PROJECT_DIR$/assets/js/frontend-1.js" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/headlight.php" />
-        <option value="$PROJECT_DIR$/optics-and-ergonomics.php" />
-        <option value="$PROJECT_DIR$/magnigying-loupes.php" />
-        <option value="$PROJECT_DIR$/custom-fitting.php" />
         <option value="$PROJECT_DIR$/stainless-optics.php" />
-        <option value="$PROJECT_DIR$/strainless-optics.php" />
-        <option value="$PROJECT_DIR$/ultralight-flipup-loupes.php" />
-        <option value="$PROJECT_DIR$/ultralight-ttl-loupes.php" />
-        <option value="$PROJECT_DIR$/vinkep-loupes.php" />
-        <option value="$PROJECT_DIR$/eyeglasses.php" />
-        <option value="$PROJECT_DIR$/prospec.php" />
-        <option value="$PROJECT_DIR$/prismspec.php" />
-        <option value="$PROJECT_DIR$/frames.php" />
         <option value="$PROJECT_DIR$/titan-b4-frame.php" />
         <option value="$PROJECT_DIR$/sport-b7-frame.php" />
         <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/lenses.php" />
-        <option value="$PROJECT_DIR$/eyeglass-lenses.php" />
-        <option value="$PROJECT_DIR$/prism-lenses.php" />
-        <option value="$PROJECT_DIR$/ttl-carrier-lenses.php" />
         <option value="$PROJECT_DIR$/curing-light-shield.php" />
         <option value="$PROJECT_DIR$/protection-shield.php" />
         <option value="$PROJECT_DIR$/contact.php" />
@@ -232,7 +309,22 @@
         <option value="$PROJECT_DIR$/sport-b8-frame.php" />
         <option value="$PROJECT_DIR$/assets/js/preloaded-modules.min.js" />
         <option value="$PROJECT_DIR$/navbar.php" />
+        <option value="$PROJECT_DIR$/custom-fitting.php" />
+        <option value="$PROJECT_DIR$/optics-and-ergonomics.php" />
+        <option value="$PROJECT_DIR$/strainless-optics.php" />
+        <option value="$PROJECT_DIR$/magnigying-loupes.php" />
         <option value="$PROJECT_DIR$/user-manuals.php" />
+        <option value="$PROJECT_DIR$/eyeglass-lenses.php" />
+        <option value="$PROJECT_DIR$/prism-lenses.php" />
+        <option value="$PROJECT_DIR$/ttl-carrier-lenses.php" />
+        <option value="$PROJECT_DIR$/frames.php" />
+        <option value="$PROJECT_DIR$/eyeglasses.php" />
+        <option value="$PROJECT_DIR$/prospec.php" />
+        <option value="$PROJECT_DIR$/prismspec.php" />
+        <option value="$PROJECT_DIR$/headlight.php" />
+        <option value="$PROJECT_DIR$/ultralight-flipup-loupes.php" />
+        <option value="$PROJECT_DIR$/ultralight-ttl-loupes.php" />
+        <option value="$PROJECT_DIR$/vinkep-loupes.php" />
       </list>
     </option>
   </component>
@@ -243,10 +335,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="630" />
-    <option name="y" value="20" />
-    <option name="width" value="810" />
-    <option name="height" value="690" />
+    <option name="x" value="-10" />
+    <option name="width" value="1385" />
+    <option name="height" value="1348" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -313,18 +404,19 @@
       <workItem from="1656312889335" duration="14000" />
       <workItem from="1656330257889" duration="4826000" />
       <workItem from="1656579262955" duration="43000" />
-      <workItem from="1657099993696" duration="445000" />
+      <workItem from="1657099993696" duration="850000" />
+      <workItem from="1657103076521" duration="1689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36325000" />
+    <option name="totallyTimeSpent" value="38419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="846" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28303152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28705567" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -398,78 +490,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/magnigying-loupes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
-          <caret line="185" column="126" selection-start-line="185" selection-start-column="126" selection-end-line="185" selection-end-column="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optics-and-ergonomics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7840">
-          <caret line="392" column="108" selection-start-line="392" selection-start-column="104" selection-end-line="392" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/distributors.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom-fitting.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/strainless-optics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="79" column="133" selection-start-line="79" selection-start-column="133" selection-end-line="79" selection-end-column="133" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/headlight.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="793" selection-start-line="793" selection-end-line="896" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ultralight-flipup-loupes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="438" selection-start-line="9" selection-start-column="438" selection-end-line="9" selection-end-column="438" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ultralight-ttl-loupes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinkep-loupes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30160">
-          <caret line="1508" column="50" selection-start-line="1508" selection-start-column="38" selection-end-line="1508" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eyeglasses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3100">
-          <caret line="155" column="186" selection-start-line="155" selection-start-column="186" selection-end-line="155" selection-end-column="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prospec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13700">
-          <caret line="685" column="117" selection-start-line="685" selection-start-column="117" selection-end-line="685" selection-end-column="117" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/titan-b4-frame.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -492,42 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="312" column="10" selection-start-line="312" selection-start-column="10" selection-end-line="312" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prismspec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="1300" column="47" selection-start-line="1197" selection-end-line="1300" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lenses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="83" column="106" selection-start-line="83" selection-start-column="106" selection-end-line="83" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eyeglass-lenses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="80" column="136" selection-start-line="80" selection-start-column="136" selection-end-line="80" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prism-lenses.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="176" column="172" selection-start-line="176" selection-start-column="172" selection-end-line="176" selection-end-column="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ttl-carrier-lenses.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="83" column="106" selection-start-line="83" selection-start-column="106" selection-end-line="83" selection-end-column="106" />
@@ -653,15 +640,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="440">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom-fitting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/optics-and-ergonomics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strainless-optics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/magnigying-loupes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-manuals.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="172" column="90" lean-forward="true" selection-end-line="286" />
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eyeglass-lenses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prism-lenses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttl-carrier-lenses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eyeglasses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#div#0;n#article#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prospec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prismspec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/headlight.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralight-flipup-loupes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ultralight-ttl-loupes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinkep-loupes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
