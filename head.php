@@ -3,7 +3,7 @@
     <link rel="icon" href="assets/img/cropped-optergo_symbol-192x192.png" sizes="192x192"/>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MO Optics</title>
+    <title>Optergo UK – Premium Scandinavian Loupes</title>
     <link rel='stylesheet' id='oceanwp-google-font-open-sans-css'
           href='//fonts.googleapis.com/css?family=Open+Sans%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=latin&#038;display=swap&#038;ver=6.0'
           media='all'/>

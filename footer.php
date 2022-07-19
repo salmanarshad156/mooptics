@@ -197,13 +197,19 @@
                                      data-widget_type="text-editor.default">
                                     <div class="elementor-widget-container">
                                         <div class="elementor-text-editor elementor-clearfix">
-                                            <p>Optergo AB © 2022</p></div>
+                                            <p>Smile Fast Ltd © 2022</p></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div class="footer-sub-links">
+                <a href="terms-of-use.php">Terms of Use</a>
+                <a href="privacy-policy.php">Privacy Policy</a>
+                <a href="cookie-policy.php">Cookie Policy</a>
             </div>
         </section>
     </div>

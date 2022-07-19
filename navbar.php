@@ -1,31 +1,31 @@
-<!--<div id="top-bar-wrap" class="clr hide-tablet-mobile top-bar-sticky">-->
-<!---->
-<!--    <div id="top-bar" class="clr container">-->
-<!---->
-<!---->
-<!--        <div id="top-bar-inner" class="clr">-->
-<!---->
-<!---->
-<!--            <div id="top-bar-content" class="clr has-content top-bar-right">-->
-<!---->
-<!---->
-<!---->
-<!---->
-<!--				<span class="topbar-content">-->
-<!---->
-<!--					<a href="/distributors/" class="link_button">Find a dealer</a>-->
-<!--				</span>-->
-<!---->
-<!---->
-<!--            </div><!-- #top-bar-content -->
-<!---->
-<!---->
-<!--        </div><!-- #top-bar-inner -->
-<!---->
-<!---->
-<!--    </div><!-- #top-bar -->
-<!---->
-<!--</div><!-- #top-bar-wrap -->
+<div id="top-bar-wrap" class="clr hide-tablet-mobile top-bar-sticky">
+
+    <div id="top-bar" class="clr container">
+
+
+        <div id="top-bar-inner" class="clr">
+
+
+            <div id="top-bar-content" class="clr has-content top-bar-right">
+
+
+
+
+				<span class="topbar-content">
+
+					<a href="track-your-order.php" class="link_button">Track Your Order</a>
+				</span>
+
+
+            </div><!-- #top-bar-content  -->
+
+
+        </div><!-- #top-bar-inner -->
+
+
+    </div><!-- #top-bar -->
+
+</div><!-- #top-bar-wrap -->
 
 
 <div id="transparent-header-wrap" class="clr">
@@ -59,6 +59,13 @@
                 <nav id="site-navigation" class="navigation main-navigation clr">
 
                     <ul id="menu-ylavalikko" class="main-menu dropdown-menu sf-menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-170">
+                            <a href="about-us.php" class="menu-link">
+                                <span class="text-wrap">
+                                    About Us
+                                </span>
+                            </a>
+                        </li>
                         <li id="menu-item-170"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-170">
                             <a href="#" class="menu-link">
@@ -240,34 +247,12 @@
                                 </li>
                             </ul>
                         </li>
-                        <li id="menu-item-219"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-219">
-                            <a href="#" class="menu-link">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-170">
+                            <a href="contact-us.php" class="menu-link">
                                 <span class="text-wrap">
-                                    About
-                                    <i class="nav-arrow fa fa-chevron-down" aria-hidden="true"></i>
+                                    Contact Us
                                 </span>
                             </a>
-                            <ul class="sub-menu">
-                                <li id="menu-item-220"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-220">
-                                    <a href="contact-us.php" class="menu-link">
-                                        <span class="text-wrap">Contact us</span>
-                                    </a>
-                                </li>
-<!--                                <li id="menu-item-221"-->
-<!--                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-221">-->
-<!--                                    <a href="#" class="menu-link">-->
-<!--                                        <span class="text-wrap">Distributors</span>-->
-<!--                                    </a>-->
-<!--                                </li>-->
-<!--                                <li id="menu-item-3101"-->
-<!--                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3101">-->
-<!--                                    <a href="#" class="menu-link">-->
-<!--                                        <span class="text-wrap">Careers</span>-->
-<!--                                    </a>-->
-<!--                                </li>-->
-                            </ul>
                         </li>
                     </ul>
                 </nav><!-- #site-navigation -->

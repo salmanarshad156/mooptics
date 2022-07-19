@@ -1,0 +1,11 @@
+.footer-sub-links{
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+.footer-sub-links a{
+    margin: 0 5px;
+    display: inline-block;
+    color: white !important;
+    text-decoration: underline !important;
+    font-size: 14px !important;
+}
