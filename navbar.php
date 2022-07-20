@@ -59,7 +59,7 @@
                 <nav id="site-navigation" class="navigation main-navigation clr">
 
                     <ul id="menu-ylavalikko" class="main-menu dropdown-menu sf-menu">
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-170">
+                        <li>
                             <a href="about-us.php" class="menu-link">
                                 <span class="text-wrap">
                                     About Us
@@ -247,7 +247,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-170">
+                        <li>
                             <a href="contact-us.php" class="menu-link">
                                 <span class="text-wrap">
                                     Contact Us
