@@ -88,7 +88,11 @@ include_once "head.php";
                                                                             <div class="elementor-image">
                                                                                 <img width="1000" height="667"
                                                                                      src="assets/img/SPEED.png"
-                                                                                     class="attachment-large size-large"
+                                                                                     class="attachment-large size-large d-img"
+                                                                                     alt="" loading="lazy"/>
+                                                                                <img width="1000" height="667"
+                                                                                     src="assets/img/SPEED-mobile.png"
+                                                                                     class="attachment-large size-large m-img"
                                                                                      alt="" loading="lazy"/>
                                                                             </div>
                                                                         </div>

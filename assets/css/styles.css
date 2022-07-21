@@ -29,3 +29,16 @@
 .footer .elementor-row{
     align-items: center;
 }
+.attachment-large.size-large.m-img{
+    display :none !important;
+}
+
+@media screen and (max-width: 768px){
+    .attachment-large.size-large.d-img{
+        display: none !important;
+    }
+    .attachment-large.size-large.m-img{
+        display: block !important;
+    }
+
+}
