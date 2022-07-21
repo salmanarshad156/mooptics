@@ -4,7 +4,8 @@
 
 <div id="sidr-close">
     <a href="javascript:void(0)" class="toggle-sidr-close" aria-label="Close mobile menu">
-        <i class="fa fa-times" aria-hidden="true"></i><span class="close-text">Close</span>
+        <span class="close-icon"><i class="fa fa-times" aria-hidden="true"></i></span>
+        <span class="close-text">Close</span>
     </a>
 </div>
 

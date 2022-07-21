@@ -1,5 +1,5 @@
 <div data-elementor-type="footer" data-elementor-id="88"
-     class="elementor elementor-88 elementor-location-footer">
+     class="elementor elementor-88 elementor-location-footer footer">
     <div class="elementor-section-wrap">
         <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-8c11e1a elementor-section-content-top elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -64,14 +64,6 @@
                          data-id="877c893" data-element_type="column">
                         <div class="elementor-column-wrap elementor-element-populated">
                             <div class="elementor-widget-wrap">
-                                <div class="elementor-element elementor-element-47ade2d elementor-widget elementor-widget-text-editor"
-                                     data-id="47ade2d" data-element_type="widget"
-                                     data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-text-editor elementor-clearfix">
-                                            <p><br/><br/></p></div>
-                                    </div>
-                                </div>
                                 <div class="elementor-element elementor-element-6469ca2 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
                                      data-id="6469ca2" data-element_type="widget"
                                      data-widget_type="icon-list.default">
@@ -108,52 +100,45 @@
                          data-id="efd7ae5" data-element_type="column">
                         <div class="elementor-column-wrap elementor-element-populated">
                             <div class="elementor-widget-wrap">
-                                <div class="elementor-element elementor-element-40308d2 elementor-widget elementor-widget-text-editor"
-                                     data-id="40308d2" data-element_type="widget"
-                                     data-widget_type="text-editor.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-text-editor elementor-clearfix">
-                                            <p><br/><br/></p></div>
-                                    </div>
-                                </div>
+
                                 <section
                                         class="elementor-section elementor-inner-section elementor-element elementor-element-34c33dc elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="34c33dc" data-element_type="section">
                                     <div class="elementor-container elementor-column-gap-default">
                                         <div class="elementor-row">
-<!--                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ef16adc"-->
-<!--                                                 data-id="ef16adc" data-element_type="column">-->
-<!--                                                <div class="elementor-column-wrap elementor-element-populated">-->
-<!--                                                    <div class="elementor-widget-wrap">-->
-<!--                                                        <div class="elementor-element elementor-element-7a9f4c7 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"-->
-<!--                                                             data-id="7a9f4c7" data-element_type="widget"-->
-<!--                                                             data-widget_type="social-icons.default">-->
-<!--                                                            <div class="elementor-widget-container">-->
-<!--                                                                <div class="elementor-social-icons-wrapper elementor-grid">-->
+                                            <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ef16adc"
+                                                 data-id="ef16adc" data-element_type="column">
+                                                <div class="elementor-column-wrap elementor-element-populated">
+                                                    <div class="elementor-widget-wrap">
+                                                        <div class="elementor-element elementor-element-7a9f4c7 elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+                                                             data-id="7a9f4c7" data-element_type="widget"
+                                                             data-widget_type="social-icons.default">
+                                                            <div class="elementor-widget-container">
+                                                                <div class="elementor-social-icons-wrapper elementor-grid">
 <!--							<span class="elementor-grid-item">-->
 <!--					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-83a1986"-->
 <!--                       href="https://www.facebook.com/Optergo/" target="_blank">-->
 <!--						<span class="elementor-screen-only">Facebook</span>-->
 <!--						<i class="fab fa-facebook"></i>					</a>-->
 <!--				</span>-->
-<!--                                                                    <span class="elementor-grid-item">-->
-<!--					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-2722e50"-->
-<!--                       href="https://www.instagram.com/optergo/" target="_blank">-->
-<!--						<span class="elementor-screen-only">Instagram</span>-->
-<!--						<i class="fab fa-instagram"></i>					</a>-->
-<!--				</span>-->
-<!--                                                                    <span class="elementor-grid-item">-->
-<!--					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-8d084cd"-->
-<!--                       href="https://www.youtube.com/channel/UCzlgVwBz0VwrKFU0DZ1Pnbw" target="_blank">-->
-<!--						<span class="elementor-screen-only">Youtube</span>-->
-<!--						<i class="fab fa-youtube"></i>					</a>-->
-<!--				</span>-->
-<!--                                                                </div>-->
-<!--                                                            </div>-->
-<!--                                                        </div>-->
-<!--                                                    </div>-->
-<!--                                                </div>-->
-<!--                                            </div>-->
+                                                                    <span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-2722e50"
+                       href="https://www.instagram.com/optergouk/" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<i class="fab fa-instagram"></i>					</a>
+				</span>
+                                                                    <span class="elementor-grid-item">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-8d084cd"
+                       href="https://www.youtube.com/channel/UCzlgVwBz0VwrKFU0DZ1Pnbw" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<i class="fab fa-youtube"></i>					</a>
+				</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f3e4b25"
                                                  data-id="f3e4b25" data-element_type="column">
                                                 <div class="elementor-column-wrap elementor-element-populated">
