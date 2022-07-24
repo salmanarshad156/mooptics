@@ -78,7 +78,7 @@ include_once 'head.php'
                                                                            class="elementor-field-label elementor-screen-only">
                                                                         Order No </label>
                                                                     <input size="1"
-                                                                           type="number"
+                                                                           type="text"
                                                                            name="name"
                                                                            id="form-field-name"
                                                                            class="elementor-field elementor-size-sm  elementor-field-textual"
