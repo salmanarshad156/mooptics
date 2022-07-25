@@ -56,14 +56,13 @@ include_once 'head.php'
                                         <div class="text-blue"
                                              data-delay="100">
 
-                                            <h4 clas
-                                                s="text-center<br><br><h5>">PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THIS
+                                            <h4 class="text-center" style="text-align:center"><br><h5 style="text-align:center">PLEASE READ THESE TERMS AND CONDITIONS CAREFULLY BEFORE USING THIS
                                                 SITE</h4></div>
-                                        <br><br>
+                                        <br>
                                         <h5></h5></br>What's in these terms?
                                     </div>
                                     <br><br>
-                                    These terms tell you the rules for using our website www.mooptics.com (our site).
+                                    These terms tell you the rules for using our website www.smilefast.com (our site).
                                     <br><br>
                                     Click on the links below to go straight to more information on each area:
                                     <br><br>
@@ -102,7 +101,7 @@ include_once 'head.php'
                                     • Our trade marks are registered.
                                     <br><br>
                                     <h5>Who we are and how to contact us</h5>
-                                    www.mooptics.com is a site operated by Mooptics Limited ("We").
+                                    www.smilefast.com is a site operated by Smile Fast Limited("We").
                                     <br><br>
                                     We are registered in England and Wales under company number 08133178 and have our registered office at Unit 9
                                     Hackthorpe Hall, Hackthorpe, Penrith, England, CA10 2HX. Our main trading address is Unit 9 Hackthorpe Hall,
@@ -297,7 +296,7 @@ include_once 'head.php'
                                     England and Wales.
                                     <br><br>
                                     <h5>Our trade marks are registered</h5>
-                                    “Mooptics” is a UK registered trade mark and the logo is a trade mark of Mooptics Limited. You are not
+                                    “Smile Fast Limited” is a UK registered trade mark and the logo is a trade mark of Smile Fast Limited. You are not
                                     permitted to use them without our approval, unless they are part of material you are using as permitted under
                                     How you may use material on our site.
 
