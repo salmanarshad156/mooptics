@@ -4,16 +4,7 @@
 include_once "head.php";
 ?>
 
-<style>
-    #site-header.transparent-header {
-        top: 45px;
-    }
-    @media screen and (max-width: 768px){
-        #site-header.transparent-header {
-            top: 0;
-        }
-    }
-</style>
+
 
 <body class="page-template-default page page-id-148 wp-custom-logo wp-embed-responsive mt-148 mt-page-magnifying-loupes no-isotope no-lightbox no-fitvids no-scroll-top no-sidr no-carousel no-matchheight oceanwp-theme sidebar-mobile has-transparent-header no-header-border default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-2908 elementor-page elementor-page-148">
 
