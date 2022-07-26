@@ -1,3 +1,22 @@
+<?php
+require_once 'php/connection.php';
+
+$order_status = $estimated_delivery_date = null;
+$order_no = $delivery_postcode = null;
+if(isset($_POST['check_status'])) {
+    $order_no = $_POST['order_no'];
+    $delivery_postcode = $_POST['delivery_postcode'];
+
+    $query = "select * from orders where order_no = '$order_no' and delivery_postcode = '$delivery_postcode' limit 1";
+    $result = mysqli_query($conn, $query);
+    if (mysqli_num_rows($result) > 0) {
+        $row = mysqli_fetch_array($result);
+        $order_status = $row['order_status'];
+        $estimated_delivery_date = $row['estimated_delivery_date'];
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html class="html" lang="en-US">
 <?php
@@ -5,15 +24,6 @@ include_once 'head.php'
 ?>
 
 <style>
-    #site-header.transparent-header {
-        top: 45px;
-    }
-
-    @media screen and (max-width: 768px) {
-        #site-header.transparent-header {
-            top: 0;
-        }
-    }
 
     input {
         margin-bottom: 16px;
@@ -58,35 +68,30 @@ include_once 'head.php'
                             <div class="entry clr" itemprop="text">
 
 
-                                <div style="padding: 130px 20px 30px; max-width: 1200px; margin: auto ">
-                                    <h1 style="text-align: center">TRACK YOUR ORDER</h1>
-
-                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a57dbc"
-                                         data-id="3a57dbc"
-                                         data-element_type="column" style="margin: auto">
-                                        <div class="elementor-column-wrap elementor-element-populated">
-                                            <div class="elementor-widget-wrap">
-                                                <div class="elementor-element elementor-element-44e92ed9 elementor-button-align-start elementor-widget elementor-widget-form"
-                                                     data-id="44e92ed9"
-                                                     data-element_type="widget"
-                                                     data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-                                                     data-widget_type="form.default">
-                                                    <div class="elementor-widget-container">
-                                                        <form class="elementor-form"
-                                                              action="" method="post">
-                                                            <div class="elementor-form-fields-wrapper elementor-labels-">
-                                                                <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
-                                                                    <label for="form-field-name"
-                                                                           class="elementor-field-label elementor-screen-only">
-                                                                        Order No </label>
-                                                                    <input size="1"
-                                                                           type="text"
-                                                                           name="name"
-                                                                           id="form-field-name"
-                                                                           class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                           placeholder="Order No"
-                                                                           required="required"
-                                                                           aria-required="true">
+                                <div data-elementor-type="wp-post" data-elementor-id="148"
+                                     class="elementor elementor-148">
+                                    <div class="elementor-inner">
+                                        <div class="elementor-section-wrap">
+                                            <section
+                                                    class="elementor-section elementor-top-section elementor-element elementor-element-b7ea7cf elementor-section-full_width elementor-section-height-min-height elementor-section-content-middle single_hero elementor-reverse-mobile elementor-section-height-default elementor-section-items-middle"
+                                                    data-id="b7ea7cf" data-element_type="section"
+                                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-background-overlay"></div>
+                                                <div class="elementor-container elementor-column-gap-default">
+                                                    <div class="elementor-row">
+                                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-9a6efad"
+                                                             data-id="9a6efad" data-element_type="column">
+                                                            <div class="elementor-column-wrap elementor-element-populated">
+                                                                <div class="elementor-widget-wrap">
+                                                                    <div class="elementor-element elementor-element-a8d4cb0 elementor-widget elementor-widget-heading"
+                                                                         data-id="a8d4cb0" data-element_type="widget"
+                                                                         data-widget_type="heading.default">
+                                                                        <div class="elementor-widget-container">
+                                                                            <h1 class="elementor-heading-title elementor-size-default">
+                                                                                Track Your <span
+                                                                                        class="blue">Order</span>
+                                                                            </h1></div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -117,11 +122,7 @@ include_once 'head.php'
                                                     </div>
                                                 </div>
                                             </section>
-
-
-                                            <div style="padding: 130px 20px 30px; max-width: 1200px; margin: auto ">
-                                                <h1 style="text-align: center">TRACK YOUR ORDER</h1>
-
+                                            <div style="padding: 100px 20px 30px; max-width: 1200px; margin: auto ">
                                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a57dbc"
                                                      data-id="3a57dbc"
                                                      data-element_type="column" style="margin: auto">
@@ -134,20 +135,21 @@ include_once 'head.php'
                                                                  data-widget_type="form.default">
                                                                 <div class="elementor-widget-container">
                                                                     <form class="elementor-form"
-                                                                          action="" method="post">
+                                                                          action="track-your-order.php" method="post">
                                                                         <div class="elementor-form-fields-wrapper elementor-labels-">
                                                                             <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
                                                                                 <label for="form-field-name"
                                                                                        class="elementor-field-label elementor-screen-only">
                                                                                     Order No </label>
                                                                                 <input size="1"
-                                                                                       type="number"
-                                                                                       name="name"
+                                                                                       type="text"
+                                                                                       name="order_no"
                                                                                        id="form-field-name"
                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
                                                                                        placeholder="Order No"
                                                                                        required="required"
-                                                                                       aria-required="true">
+                                                                                       aria-required="true"
+                                                                                       value="<?= $order_no ?>">
                                                                             </div>
                                                                             <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_1 elementor-col-100 elementor-field-required">
                                                                                 <label for="form-field-field_1"
@@ -155,18 +157,18 @@ include_once 'head.php'
                                                                                     Delivery Post Code </label>
                                                                                 <input size="1"
                                                                                        type="text"
-                                                                                       name="phone"
+                                                                                       name="delivery_postcode"
                                                                                        id="form-field-field_1"
                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
                                                                                        placeholder="Delivery Post Code"
                                                                                        required="required"
-                                                                                       aria-required="true">
+                                                                                       aria-required="true"
+                                                                                       value="<?= $delivery_postcode ?>">
                                                                             </div>
 
                                                                             <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-                                                                                <button type="submit"
-                                                                                        class="elementor-button elementor-size-sm"
-                                                                                        style="margin-top: 10px">
+                                                                                <button type="submit" name="check_status"
+                                                                                        class="elementor-button elementor-size-sm" style="margin-top: 10px">
 						<span>
 															<span class=" elementor-button-icon">
 																										</span>
@@ -179,11 +181,15 @@ include_once 'head.php'
 
                                                                     <div style="margin-top: 30px">
                                                                         <span>Order Status :</span>
-                                                                        <span>*******</span>
+                                                                        <span>
+                                                                <?= $order_status ? $order_status : '*******' ?>
+                                                            </span>
                                                                     </div>
                                                                     <div>
                                                                         <span>Expected Delivery Date :</span>
-                                                                        <span>**/**/****</span>
+                                                                        <span>
+                                                                <?= $estimated_delivery_date ? date_create($estimated_delivery_date)->format('d/m/Y') : '**/**/****' ?>
+                                                            </span>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -191,9 +197,7 @@ include_once 'head.php'
                                                     </div>
                                                 </div>
 
-
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
