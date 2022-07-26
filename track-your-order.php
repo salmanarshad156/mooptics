@@ -24,6 +24,16 @@ include_once 'head.php'
 ?>
 
 <style>
+    .form-track{
+        padding: 100px 20px 30px;
+        max-width: 1200px;
+        margin: auto
+    }
+    @media screen and (max-width: 768px){
+        .form-track{
+            padding: 20px;
+        }
+    }
 
     input {
         margin-bottom: 16px;
@@ -122,7 +132,7 @@ include_once 'head.php'
                                                     </div>
                                                 </div>
                                             </section>
-                                            <div style="padding: 100px 20px 30px; max-width: 1200px; margin: auto ">
+                                            <div class="form-track">
                                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a57dbc"
                                                      data-id="3a57dbc"
                                                      data-element_type="column" style="margin: auto">
