@@ -49,9 +49,9 @@ include_once 'head.php'
 
                                             <h4 class="text-center font-weight-bold">Introduction</h4>
                                             <p>
-                                                Welcome to the Mooptics Limited's website privacy policy.
+                                                Welcome to the Smile Fast Limited's website privacy policy.
                                                 <br><br>
-                                                Mooptics Limited respects your privacy and is committed to protecting your personal data.
+                                                Smile Fast Limited respects your privacy and is committed to protecting your personal data.
                                                 This privacy policy will inform you as to how we look after your personal data when you visit our
                                                 website (regardless of where you visit it from) and tell you about your privacy rights and how the
                                                 law protects you.
@@ -85,7 +85,7 @@ include_once 'head.php'
                                             <div>
                                                 <h4>1. Important information and who we are</h4>
                                                 <br><br><h5>Purpose of this privacy policy</h5>
-                                                This privacy policy aims to give you information on how Mooptics Limited collects and processes
+                                                This privacy policy aims to give you information on how Smile Fast Limited collects and processes
                                                 your personal data through your use of this website, including any data you may provide through this
                                                 website when you sign up to receive information about our services.
                                                 <br><br>This website is not intended for children and we do not knowingly collect data relating to
@@ -95,15 +95,15 @@ include_once 'head.php'
                                                 personal data about you so that you are fully aware of how and why we are using your data. This
                                                 privacy policy supplements other notices and privacy policies and is not intended to override them.
                                                 <br><br><h5>Controller</h5>
-                                                Mooptics Limited is the controller and responsible for your personal data (collectively referred
-                                                to as "Mooptics", "we", "us" or "our" in this privacy policy).
+                                                Smile Fast Limited is the controller and responsible for your personal data (collectively referred
+                                                to as "Smile Fast", "we", "us" or "our" in this privacy policy).
                                                 <br><br>If you have any questions about this privacy policy, including any requests to exercise your
                                                 legal rights, please contact us using the details set out below.
                                                 <br><br><h5>Contact details</h5>
                                                 If you have any questions about this privacy policy or our privacy practices, please contact us in
                                                 the following ways:
-                                                <br><br>Full name of legal entity: Mooptics Limited
-                                                <br><br>Email address: info@optergouk.com.
+                                                <br><br>Full name of legal entity: Smile Fast Limited
+                                                <br><br>Email address: info@smilefast.com.
                                                 <br><br>Postal address: Inglebeck, Edenhall, Penrith, Cumbria CA11 8SR.
                                                 <br><br>You have the right to make a complaint at any time to the Information Commissioner's Office
                                                 (ICO), the UK regulator for data protection issues (www.ico.org.uk). We would, however, appreciate
@@ -162,7 +162,7 @@ include_once 'head.php'
                                                 <br><strong>• Automated technologies or interactions.</strong> As you interact with our website, we will
                                                 automatically collect Technical Data about your equipment, browsing actions and patterns. We collect
                                                 this personal data by using cookies, server logs and other similar technologies. Please see our
-                                                <a style="font-weight: 600;text-decoration: underline !important;" href="{{route("cookie-policy")}}">cookie policy</a> for further details.
+                                                <a style="font-weight: 600;text-decoration: underline !important;" href="cookie-policy.php">cookie policy</a> for further details.
                                                 <br><br><h4>4. How we use your personal data</h4>
                                                 We will only use your personal data when the law allows us to. Most commonly, we will use your
                                                 personal data in the following circumstances:
@@ -288,7 +288,7 @@ include_once 'head.php'
                                                 You can set your browser to refuse all or some browser cookies, or to alert you when websites set or
                                                 access cookies. If you disable or refuse cookies, please note that some parts of this website may
                                                 become inaccessible or not function properly. For more information about the cookies we use,
-                                                <a style="font-weight: 600;text-decoration: underline !important;" href="{{route("cookie-policy")}}">please see</a>
+                                                <a style="font-weight: 600;text-decoration: underline !important;" href="cookie-policy.php">please see</a>
                                                 <br><br><h5>Change of purpose</h5>
                                                 We will only use your personal data for the purposes for which we collected it, unless we reasonably
                                                 consider that we need to use it for another reason and that reason is compatible with the original
