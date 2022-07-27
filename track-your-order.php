@@ -176,7 +176,7 @@ include_once 'head.php'
                                                                                        value="<?= $delivery_postcode ?>">
                                                                             </div>
 
-                                                                            <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+                                                                            <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons" style="justify-content: center">
                                                                                 <button type="submit" name="check_status"
                                                                                         class="elementor-button elementor-size-sm" style="margin-top: 10px">
 						<span>
@@ -190,13 +190,13 @@ include_once 'head.php'
                                                                     </form>
 
                                                                     <div style="margin-top: 30px">
-                                                                        <span>Order Status :</span>
+                                                                        <span style="font-weight: bold">Order Status :</span>
                                                                         <span>
                                                                 <?= $order_status ? $order_status : '*******' ?>
                                                             </span>
                                                                     </div>
                                                                     <div>
-                                                                        <span>Expected Delivery Date :</span>
+                                                                        <span style="font-weight: bold">Expected Delivery Date :</span>
                                                                         <span>
                                                                 <?= $estimated_delivery_date ? date_create($estimated_delivery_date)->format('d/m/Y') : '**/**/****' ?>
                                                             </span>

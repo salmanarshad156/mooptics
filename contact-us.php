@@ -146,13 +146,7 @@ if (isset($_POST["email"])) {
                                                              data-id="a30ca73" data-element_type="column">
                                                             <div class="elementor-column-wrap elementor-element-populated">
                                                                 <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-6e367e8 elementor-widget elementor-widget-heading"
-                                                                         data-id="6e367e8" data-element_type="widget"
-                                                                         data-widget_type="heading.default">
-                                                                        <div class="elementor-widget-container">
-                                                                            <h2 class="elementor-heading-title elementor-size-default">
-                                                                                Optergo AB</h2></div>
-                                                                    </div>
+
                                                                     <section
                                                                             class="elementor-section elementor-inner-section elementor-element elementor-element-e95fb24 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                                                             data-id="e95fb24"
@@ -177,7 +171,7 @@ if (isset($_POST["email"])) {
                                                                                                         </p>
                                                                                                         <p><strong>Telephone</strong><br/>01768 606027</p>
                                                                                                         <p>
-                                                                                                            <strong>Email</strong><br/>info@optergouk.com
+                                                                                                            <strong>Email</strong><br/><a href="mailto:info@optergouk.com" style="color: inherit">info@optergouk.com</a>
                                                                                                         </p></div>
                                                                                                 </div>
                                                                                             </div>
@@ -307,7 +301,7 @@ if (isset($_POST["email"])) {
 <!--                                                                                                                </div>-->
 <!--                                                                                                            </div>-->
 
-                                                                                                            <div class="col-12">
+                                                                                                            <div class="col-12" style="margin-left: 5px">
                                                                                                                 <div class="g-recaptcha mt-3 d-flex"
                                                                                                                      data-sitekey="6Le3s9UcAAAAAAkHXjic_FqCuv9pxgd7ygIF9bPI"></div>
 
