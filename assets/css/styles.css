@@ -42,3 +42,32 @@
     }
 
 }
+
+.error-popup{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+}
+.popup-wrap{
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    padding: 5px 10px;
+    max-width: 500px;
+    margin: auto;
+}
+.hide-popup{
+    text-align: right;
+    cursor: pointer;
+    font-weight: bold;
+}
+.popup-text{
+    padding: 10px 30px 30px;
+    text-align: center;
+}

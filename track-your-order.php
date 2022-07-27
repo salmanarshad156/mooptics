@@ -238,6 +238,22 @@ include_once 'head.php'
 
 </div><!-- #outer-wrap -->
 
+<div class="error-popup" id="error-popup">
+    <div class="popup-wrap">
+        <div class="hide-popup" onclick="hidePopup()">
+            x
+        </div>
+        <div class="popup-text">
+            Order details are invalid
+        </div>
+    </div>
+</div>
+<script>
+    function hidePopup() {
+        document.getElementById('error-popup').style.display = "none"
+    }
+</script>
+
 
 <?php
 include_once 'scripts.php'

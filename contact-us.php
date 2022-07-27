@@ -384,7 +384,21 @@ if (isset($_POST["email"])) {
 
 </div><!-- #outer-wrap -->
 
-
+<div class="error-popup" id="error-popup">
+    <div class="popup-wrap">
+        <div class="hide-popup" onclick="hidePopup()">
+            x
+        </div>
+        <div class="popup-text">
+            For has been submitted Successfully
+        </div>
+    </div>
+</div>
+<script>
+    function hidePopup() {
+        document.getElementById('error-popup').style.display = "none"
+    }
+</script>
 
 
 
