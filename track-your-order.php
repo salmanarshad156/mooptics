@@ -25,9 +25,14 @@ include_once 'head.php'
 
 <style>
     .form-track{
-        padding: 100px 20px 30px;
+        padding: 30px 20px;
         max-width: 1200px;
-        margin: auto
+        margin: 30px auto 0;
+        background: white;
+    }
+    .form-track form{
+        max-width: 500px;
+        margin: auto;
     }
     @media screen and (max-width: 768px){
         .form-track{
@@ -105,24 +110,73 @@ include_once 'head.php'
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-90a0914"
-                                                             data-id="90a0914" data-element_type="column">
+                                                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a57dbc"
+                                                             data-id="3a57dbc"
+                                                             data-element_type="column" style="margin: auto">
                                                             <div class="elementor-column-wrap elementor-element-populated">
-                                                                <div class="elementor-widget-wrap">
-                                                                    <div class="elementor-element elementor-element-7b8196e elementor-widget__width-initial elementor-absolute elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
-                                                                         data-id="7b8196e" data-element_type="widget"
-                                                                         data-settings="{&quot;_position&quot;:&quot;absolute&quot;}"
-                                                                         data-widget_type="image.default">
+                                                                <div class="elementor-widget-wrap form-track">
+                                                                    <div class="elementor-element elementor-element-44e92ed9 elementor-button-align-start elementor-widget elementor-widget-form"
+                                                                         data-id="44e92ed9"
+                                                                         data-element_type="widget"
+                                                                         data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
+                                                                         data-widget_type="form.default">
                                                                         <div class="elementor-widget-container">
-                                                                            <div class="elementor-image">
-                                                                                <img width="1000" height="667"
-                                                                                     src="assets/img/SPEED.png"
-                                                                                     class="attachment-large size-large d-img"
-                                                                                     alt="" loading="lazy"/>
-                                                                                <img width="1000" height="667"
-                                                                                     src="assets/img/SPEED-mobile.png"
-                                                                                     class="attachment-large size-large m-img"
-                                                                                     alt="" loading="lazy"/>
+                                                                            <form class="elementor-form"
+                                                                                  action="track-your-order.php" method="post">
+                                                                                <div class="elementor-form-fields-wrapper elementor-labels-">
+                                                                                    <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
+                                                                                        <label for="form-field-name"
+                                                                                               class="elementor-field-label elementor-screen-only">
+                                                                                            Order No </label>
+                                                                                        <input size="1"
+                                                                                               type="text"
+                                                                                               name="order_no"
+                                                                                               id="form-field-name"
+                                                                                               class="elementor-field elementor-size-sm  elementor-field-textual"
+                                                                                               placeholder="Order No"
+                                                                                               required="required"
+                                                                                               aria-required="true"
+                                                                                               value="<?= $order_no ?>">
+                                                                                    </div>
+                                                                                    <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_1 elementor-col-100 elementor-field-required">
+                                                                                        <label for="form-field-field_1"
+                                                                                               class="elementor-field-label elementor-screen-only">
+                                                                                            Delivery Post Code </label>
+                                                                                        <input size="1"
+                                                                                               type="text"
+                                                                                               name="delivery_postcode"
+                                                                                               id="form-field-field_1"
+                                                                                               class="elementor-field elementor-size-sm  elementor-field-textual"
+                                                                                               placeholder="Delivery Post Code"
+                                                                                               required="required"
+                                                                                               aria-required="true"
+                                                                                               value="<?= $delivery_postcode ?>">
+                                                                                    </div>
+
+                                                                                    <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons" style="justify-content: center">
+                                                                                        <button type="submit" name="check_status"
+                                                                                                class="elementor-button elementor-size-sm" style="margin-top: 10px">
+						<span>
+															<span class=" elementor-button-icon">
+																										</span>
+																						<span class="elementor-button-text">Submit</span>
+													</span>
+                                                                                        </button>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+
+                                                                            <div style="margin-top: 30px">
+                                                                                <span style="font-weight: bold">Order Status :</span>
+                                                                                <span>
+                                                                <?= $order_status ? $order_status : '*******' ?>
+                                                            </span>
+                                                                            </div>
+                                                                            <div>
+                                                                                <span style="font-weight: bold">Expected Delivery Date :</span>
+                                                                                <span>
+                                                                <?= $estimated_delivery_date ? date_create($estimated_delivery_date)->format('d/m/Y') : '**/**/****' ?>
+                                                            </span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -132,82 +186,6 @@ include_once 'head.php'
                                                     </div>
                                                 </div>
                                             </section>
-                                            <div class="form-track">
-                                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-3a57dbc"
-                                                     data-id="3a57dbc"
-                                                     data-element_type="column" style="margin: auto">
-                                                    <div class="elementor-column-wrap elementor-element-populated">
-                                                        <div class="elementor-widget-wrap">
-                                                            <div class="elementor-element elementor-element-44e92ed9 elementor-button-align-start elementor-widget elementor-widget-form"
-                                                                 data-id="44e92ed9"
-                                                                 data-element_type="widget"
-                                                                 data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
-                                                                 data-widget_type="form.default">
-                                                                <div class="elementor-widget-container">
-                                                                    <form class="elementor-form"
-                                                                          action="track-your-order.php" method="post">
-                                                                        <div class="elementor-form-fields-wrapper elementor-labels-">
-                                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
-                                                                                <label for="form-field-name"
-                                                                                       class="elementor-field-label elementor-screen-only">
-                                                                                    Order No </label>
-                                                                                <input size="1"
-                                                                                       type="text"
-                                                                                       name="order_no"
-                                                                                       id="form-field-name"
-                                                                                       class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                                       placeholder="Order No"
-                                                                                       required="required"
-                                                                                       aria-required="true"
-                                                                                       value="<?= $order_no ?>">
-                                                                            </div>
-                                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_1 elementor-col-100 elementor-field-required">
-                                                                                <label for="form-field-field_1"
-                                                                                       class="elementor-field-label elementor-screen-only">
-                                                                                    Delivery Post Code </label>
-                                                                                <input size="1"
-                                                                                       type="text"
-                                                                                       name="delivery_postcode"
-                                                                                       id="form-field-field_1"
-                                                                                       class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                                       placeholder="Delivery Post Code"
-                                                                                       required="required"
-                                                                                       aria-required="true"
-                                                                                       value="<?= $delivery_postcode ?>">
-                                                                            </div>
-
-                                                                            <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons" style="justify-content: center">
-                                                                                <button type="submit" name="check_status"
-                                                                                        class="elementor-button elementor-size-sm" style="margin-top: 10px">
-						<span>
-															<span class=" elementor-button-icon">
-																										</span>
-																						<span class="elementor-button-text">Submit</span>
-													</span>
-                                                                                </button>
-                                                                            </div>
-                                                                        </div>
-                                                                    </form>
-
-                                                                    <div style="margin-top: 30px">
-                                                                        <span style="font-weight: bold">Order Status :</span>
-                                                                        <span>
-                                                                <?= $order_status ? $order_status : '*******' ?>
-                                                            </span>
-                                                                    </div>
-                                                                    <div>
-                                                                        <span style="font-weight: bold">Expected Delivery Date :</span>
-                                                                        <span>
-                                                                <?= $estimated_delivery_date ? date_create($estimated_delivery_date)->format('d/m/Y') : '**/**/****' ?>
-                                                            </span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
