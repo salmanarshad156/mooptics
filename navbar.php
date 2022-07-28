@@ -254,6 +254,13 @@
                                 </span>
                             </a>
                         </li>
+                        <li class="d-small">
+                            <a href="track-your-order.php" class="menu-link">
+                                <span class="text-wrap">
+                                    Track Your Order
+                                </span>
+                            </a>
+                        </li>
                     </ul>
                 </nav><!-- #site-navigation -->
 

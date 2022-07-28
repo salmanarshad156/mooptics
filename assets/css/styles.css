@@ -29,7 +29,9 @@
 .footer .elementor-row{
     align-items: center;
 }
-.attachment-large.size-large.m-img{
+.attachment-large.size-large.m-img,
+.d-small
+{
     display :none !important;
 }
 
@@ -37,7 +39,9 @@
     .attachment-large.size-large.d-img{
         display: none !important;
     }
-    .attachment-large.size-large.m-img{
+    .attachment-large.size-large.m-img,
+    .d-small
+    {
         display: block !important;
     }
 
