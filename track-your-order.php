@@ -25,18 +25,35 @@ include_once 'head.php'
 
 <style>
     .form-track{
-        padding: 30px 20px;
+        padding: 30px 20px !important;
         max-width: 1200px;
         margin: 30px auto 0;
         background: white;
+        min-height: 500px;
     }
-    .form-track form{
+    .form-track .elementor-widget-container{
         max-width: 500px;
         margin: auto;
     }
+    @media (max-width: 1550px){
+        .form-track {
+            min-height: 36vw !important;
+        }
+    }
+
     @media screen and (max-width: 768px){
         .form-track{
             padding: 20px;
+            margin: 0 auto;
+        }
+    }
+    @media (max-width: 767px) {
+        .elementor-reverse-mobile > .elementor-container > .elementor-row > :first-child {
+            -webkit-box-ordinal-group: 11;
+            -ms-flex-order: 10;
+            order: 9;
+            padding-top: 60px;
+            background: white;
         }
     }
 
