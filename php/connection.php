@@ -4,10 +4,10 @@ $username = "dbu2311324";
 $password = "4D!TtW7iiRgJffj";
 $db="dbs8107160";
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db="ordermanagementsystem";
+// $servername = "localhost";
+// $username = "root";
+// $password = "";
+// $db="ordermanagementsystem";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
