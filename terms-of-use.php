@@ -53,7 +53,7 @@ include_once 'head.php'
                                         <h5></h5></br>What's in these terms?
                                     </div>
                                     <br><br>
-                                    These terms tell you the rules for using our website www.smilefast.com (our site).
+                                    These terms tell you the rules for using our website www.optergouk.com (our site).
                                     <br><br>
                                     Click on the links below to go straight to more information on each area:
                                     <br><br>
@@ -92,7 +92,7 @@ include_once 'head.php'
                                     • Our trade marks are registered.
                                     <br><br>
                                     <h5>Who we are and how to contact us</h5>
-                                    www.smilefast.com is a site operated by Smile Fast Limited("We").
+                                    www.optergouk.com is a site operated by Smile Fast Limited("We").
                                     <br><br>
                                     We are registered in England and Wales under company number 08133178 and have our registered office at Unit 9
                                     Hackthorpe Hall, Hackthorpe, Penrith, England, CA10 2HX. Our main trading address is Unit 9 Hackthorpe Hall,

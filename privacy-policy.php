@@ -104,7 +104,7 @@ include_once 'head.php'
                                                 the following ways:
                                                 <br><br>Full name of legal entity: Smile Fast Limited
                                                 <br><br>Email address: info@smilefast.com.
-                                                <br><br>Postal address: Inglebeck, Edenhall, Penrith, Cumbria CA11 8SR.
+                                                <br><br>Postal address: Unit 9 Hackthorpe Hall, Hackthorpe, Cumbria, CA10 2HX.
                                                 <br><br>You have the right to make a complaint at any time to the Information Commissioner's Office
                                                 (ICO), the UK regulator for data protection issues (www.ico.org.uk). We would, however, appreciate
                                                 the chance to deal with your concerns before you approach the ICO so please contact us in the first
