@@ -53,7 +53,7 @@ include_once 'head.php'
                                         <h5></h5></br>What's in these terms?
                                     </div>
                                     <br><br>
-                                    These terms tell you the rules for using our website www.smilefast.com (our site).
+                                    These terms tell you the rules for using our website www.optergouk.com (our site).
                                     <br><br>
                                     Click on the links below to go straight to more information on each area:
                                     <br><br>
@@ -92,7 +92,7 @@ include_once 'head.php'
                                     • Our trade marks are registered.
                                     <br><br>
                                     <h5>Who we are and how to contact us</h5>
-                                    www.smilefast.com is a site operated by Smile Fast Limited("We").
+                                    www.optergouk.com is a site operated by Smile Fast Limited("We").
                                     <br><br>
                                     We are registered in England and Wales under company number 08133178 and have our registered office at Unit 9
                                     Hackthorpe Hall, Hackthorpe, Penrith, England, CA10 2HX. Our main trading address is Unit 9 Hackthorpe Hall,
@@ -112,10 +112,10 @@ include_once 'head.php'
                                     <h5>There are other terms that may apply to you</h5>
                                     These terms of use refer to the following additional terms, which also apply to your use of our site:
                                     <br><br>
-                                    • Our <a style="font-weight: 600;text-decoration: underline !important;" href="{{route("privacy_policy")}}">Privacy Policy</a> . See further under How we may use your personal
+                                    • Our <a style="font-weight: 600;text-decoration: underline !important;" href="privacy-policy.php">Privacy Policy</a> . See further under How we may use your personal
                                     information.
                                     <br><br>
-                                    • Our <a style="font-weight: 600;text-decoration: underline !important;" href="{{route("cookie-policy")}}">Cookie Policy</a> , which sets out information about the cookies on our site.
+                                    • Our <a style="font-weight: 600;text-decoration: underline !important;" href="cookie-policy.php">Cookie Policy</a> , which sets out information about the cookies on our site.
                                     <br><br>
                                     <h5>We may make changes to these terms</h5>
                                     We amend these terms from time to time. Every time you wish to use our site, please check these terms to ensure
@@ -243,7 +243,7 @@ include_once 'head.php'
                                     business interruption, or loss of business opportunity.
                                     <br><br>
                                     <h5>How we may use your personal information</h5>
-                                    We will only use your personal information as set out in our <a style="font-weight: 600;text-decoration: underline !important;" href="{{route("privacy_policy")}}">Privacy Policy</a>.
+                                    We will only use your personal information as set out in our <a style="font-weight: 600;text-decoration: underline !important;" href="privacy-policy.php">Privacy Policy</a>.
                                     <br><br>
                                     We are not responsible for viruses and you must not introduce them
                                     <br><br>
