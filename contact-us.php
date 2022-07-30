@@ -23,8 +23,8 @@ if (isset($_POST["email"])) {
 // More headers
     $secretKey = "6Le3s9UcAAAAABFTo4hpDzhUsKLtSRRSiedIkcDN";
     $responseKey = $_POST["g-recaptcha-response"];
-    $ip;
-
+    $ip='';
+    
     $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$ip";
     $response = file_get_contents($url);
     $response = json_decode($response);
@@ -39,6 +39,7 @@ if (isset($_POST["email"])) {
 
         if ($session_life > $inactive) {
             if (mail($to_email, $subject, $message, $headers)) {
+                $mail_sent = 1;
 //        echo "email sent";
             }
             $_SESSION["email_timeout"] = time();
@@ -384,16 +385,23 @@ if (isset($_POST["email"])) {
 
 </div><!-- #outer-wrap -->
 
+<?php
+if(isset($mail_sent) && $mail_sent){
+?>
 <div class="error-popup" id="error-popup">
     <div class="popup-wrap">
         <div class="hide-popup" onclick="hidePopup()">
             x
         </div>
         <div class="popup-text">
-            For has been submitted Successfully
+            Form has been submitted Successfully
         </div>
     </div>
 </div>
+<?php
+}
+?>
+
 <script>
     function hidePopup() {
         document.getElementById('error-popup').style.display = "none"

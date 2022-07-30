@@ -62,3 +62,4 @@
 <script src='assets/js/frontend-2.js'></script>
 <script src='//cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js'></script>
 <script src='assets/js/frontend-1.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
