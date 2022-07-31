@@ -5,7 +5,7 @@ if (isset($_POST['order_no'])) {
     $order_no = $_POST['order_no'];
     $delivery_postcode = $_POST['delivery_postcode'];
 
-    $query = "select * from orders where order_no = '$order_no' and delivery_postcode = '$delivery_postcode' limit 1";
+    $query = "select * from orders where order_no = '$order_no' and replace(delivery_postcode, ' ', '') = replace('$delivery_postcode', ' ', '') limit 1";
     $result = mysqli_query($conn, $query);
     if (mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_array($result);
