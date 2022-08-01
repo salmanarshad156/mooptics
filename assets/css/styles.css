@@ -1,7 +1,7 @@
 .footer-sub-links{
-    padding: 0 0 10px 0;
-    text-align: center;
-}
+     padding: 0 0 10px 0;
+     text-align: center;
+ }
 .footer-sub-links a{
     margin: 0 5px;
     display: inline-block;
@@ -74,4 +74,8 @@
 .popup-text{
     padding: 10px 30px 30px;
     text-align: center;
+}
+#tab_list .link_active {
+    text-shadow: 1px 0 0 #3586c8 !important;
+    box-shadow: inset 0px -2px 0px 0px #3586c8 !important;
 }
