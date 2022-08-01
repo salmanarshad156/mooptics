@@ -75,7 +75,7 @@
     padding: 10px 30px 30px;
     text-align: center;
 }
-#tab_list .link_active {
+#tab_list a:focus {
     text-shadow: 1px 0 0 #3586c8 !important;
     box-shadow: inset 0px -2px 0px 0px #3586c8 !important;
 }

@@ -87,10 +87,6 @@
 #tab_list a:hover {
     text-shadow: 1px 0 0 #3586C8;
 }
-#tab_list .link_active {
-    text-shadow: 1px 0 0 #3586C8;
-    box-shadow:inset 0px -2px 0px 0px #3586C8;
-}
 .tabi{
     margin-left:25px;
     margin-right:25px;
