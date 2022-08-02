@@ -268,7 +268,7 @@ if (isset($_POST["email"])) {
                                                                                                                        name="location"
                                                                                                                        id="form-field-field_2"
                                                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                                                                       placeholder="Location">
+                                                                                                                       placeholder="City/Town">
                                                                                                             </div>
 <!--                                                                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-3186a7c elementor-col-100">-->
 <!--                                                                                                                <label for="form-field-3186a7c"-->
