@@ -11,20 +11,21 @@ if (isset($_POST["email"])) {
     $contact = $_POST["phone"];
     $email = $_POST["email"];
     $location = $_POST["location"];
-    $subject = $_POST["subject"];
+//    $subject = $_POST["subject"];
     $description = $_POST["message"];
 
-    $to_email = 'info@optergouk.com';
-    $subject = 'New query from mooptics.com';
-    $message = "<html><head><title>HTML email</title></head><body><strong>Name:</strong> $fname<br/><strong>Contact:</strong> $contact<br/><strong>Email:</strong> $email<br/><strong>Location:</strong> $location<br/><strong>Subject:</strong> $subject<br/><strong>Description:</strong> $description</body></html>";
+    $to_email = 'asif@smilefast.com';
+    $subject = 'New query from Optergo UK';
+    $message = "<html><head><title>HTML email</title></head><body><strong>Name:</strong> $fname<br/><strong>Contact:</strong> $contact<br/><strong>Email:</strong> $email<br/><strong>Location:</strong> $location<br/><strong>Description:</strong> $description</body></html>";
 
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers .= "From: <info@optergouk.com>" . "\r\n";
 // More headers
     $secretKey = "6Le3s9UcAAAAABFTo4hpDzhUsKLtSRRSiedIkcDN";
     $responseKey = $_POST["g-recaptcha-response"];
     $ip='';
-    
+
     $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$ip";
     $response = file_get_contents($url);
     $response = json_decode($response);
@@ -202,19 +203,19 @@ if (isset($_POST["email"])) {
                                                                                                 <div class="elementor-widget-container">
                                                                                                     <form class="elementor-form"
                                                                                                           action="" method="post">
-<!--                                                                                                        <input type="hidden"-->
-<!--                                                                                                               name="post_id"-->
-<!--                                                                                                               value="166"/>-->
-<!--                                                                                                        <input type="hidden"-->
-<!--                                                                                                               name="form_id"-->
-<!--                                                                                                               value="44e92ed9"/>-->
-<!--                                                                                                        <input type="hidden"-->
-<!--                                                                                                               name="referer_title"-->
-<!--                                                                                                               value="Contact Us - Optergo"/>-->
-<!---->
-<!--                                                                                                        <input type="hidden"-->
-<!--                                                                                                               name="queried_id"-->
-<!--                                                                                                               value="166"/>-->
+                                                                                                        <!--                                                                                                        <input type="hidden"-->
+                                                                                                        <!--                                                                                                               name="post_id"-->
+                                                                                                        <!--                                                                                                               value="166"/>-->
+                                                                                                        <!--                                                                                                        <input type="hidden"-->
+                                                                                                        <!--                                                                                                               name="form_id"-->
+                                                                                                        <!--                                                                                                               value="44e92ed9"/>-->
+                                                                                                        <!--                                                                                                        <input type="hidden"-->
+                                                                                                        <!--                                                                                                               name="referer_title"-->
+                                                                                                        <!--                                                                                                               value="Contact Us - Optergo"/>-->
+                                                                                                        <!---->
+                                                                                                        <!--                                                                                                        <input type="hidden"-->
+                                                                                                        <!--                                                                                                               name="queried_id"-->
+                                                                                                        <!--                                                                                                               value="166"/>-->
 
                                                                                                         <div class="elementor-form-fields-wrapper elementor-labels-">
                                                                                                             <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100 elementor-field-required">
@@ -236,8 +237,9 @@ if (isset($_POST["email"])) {
                                                                                                                        class="elementor-field-label elementor-screen-only">
                                                                                                                     Phone </label>
                                                                                                                 <input size="1"
-                                                                                                                       type="text"
+                                                                                                                       type="tel"
                                                                                                                        name="phone"
+                                                                                                                       pattern="[0-9]{11}"
                                                                                                                        id="form-field-field_1"
                                                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
                                                                                                                        placeholder="Phone"
@@ -253,12 +255,14 @@ if (isset($_POST["email"])) {
                                                                                                                        name="email"
                                                                                                                        id="form-field-email"
                                                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                                                                       placeholder="E-mail">
+                                                                                                                       placeholder="E-mail"
+                                                                                                                       required
+                                                                                                                >
                                                                                                             </div>
                                                                                                             <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-field_2 elementor-col-100">
                                                                                                                 <label for="form-field-field_2"
                                                                                                                        class="elementor-field-label elementor-screen-only">
-                                                                                                                    Location </label>
+                                                                                                                    City/Town </label>
                                                                                                                 <input size="1"
                                                                                                                        type="text"
                                                                                                                        name="location"
@@ -266,17 +270,17 @@ if (isset($_POST["email"])) {
                                                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
                                                                                                                        placeholder="Location">
                                                                                                             </div>
-                                                                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-3186a7c elementor-col-100">
-                                                                                                                <label for="form-field-3186a7c"
-                                                                                                                       class="elementor-field-label elementor-screen-only">
-                                                                                                                    Subject </label>
-                                                                                                                <input size="1"
-                                                                                                                       type="text"
-                                                                                                                       name="subject"
-                                                                                                                       id="form-field-3186a7c"
-                                                                                                                       class="elementor-field elementor-size-sm  elementor-field-textual"
-                                                                                                                       placeholder="Subject">
-                                                                                                            </div>
+<!--                                                                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-3186a7c elementor-col-100">-->
+<!--                                                                                                                <label for="form-field-3186a7c"-->
+<!--                                                                                                                       class="elementor-field-label elementor-screen-only">-->
+<!--                                                                                                                    Subject </label>-->
+<!--                                                                                                                <input size="1"-->
+<!--                                                                                                                       type="text"-->
+<!--                                                                                                                       name="subject"-->
+<!--                                                                                                                       id="form-field-3186a7c"-->
+<!--                                                                                                                       class="elementor-field elementor-size-sm  elementor-field-textual"-->
+<!--                                                                                                                       placeholder="Subject">-->
+<!--                                                                                                            </div>-->
                                                                                                             <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
                                                                                                                 <label for="form-field-message"
                                                                                                                        class="elementor-field-label elementor-screen-only">
@@ -290,17 +294,17 @@ if (isset($_POST["email"])) {
                                                                                                                         required="required"
                                                                                                                         aria-required="true"></textarea>
                                                                                                             </div>
-<!--                                                                                                            <div class="elementor-field-type-recaptcha_v3 elementor-field-group elementor-column elementor-field-group-field_2180f94 elementor-col-100 recaptcha_v3-bottomright">-->
-<!--                                                                                                                <div class="elementor-field"-->
-<!--                                                                                                                     id="form-field-field_2180f94">-->
-<!--                                                                                                                    <div class="elementor-g-recaptcha"-->
-<!--                                                                                                                         data-sitekey="6LdYKAccAAAAACMMblSRRsQ5I0dityberu0Q19PI"-->
-<!--                                                                                                                         data-type="v3"-->
-<!--                                                                                                                         data-action="Form"-->
-<!--                                                                                                                         data-badge="bottomright"-->
-<!--                                                                                                                         data-size="invisible"></div>-->
-<!--                                                                                                                </div>-->
-<!--                                                                                                            </div>-->
+                                                                                                            <!--                                                                                                            <div class="elementor-field-type-recaptcha_v3 elementor-field-group elementor-column elementor-field-group-field_2180f94 elementor-col-100 recaptcha_v3-bottomright">-->
+                                                                                                            <!--                                                                                                                <div class="elementor-field"-->
+                                                                                                            <!--                                                                                                                     id="form-field-field_2180f94">-->
+                                                                                                            <!--                                                                                                                    <div class="elementor-g-recaptcha"-->
+                                                                                                            <!--                                                                                                                         data-sitekey="6LdYKAccAAAAACMMblSRRsQ5I0dityberu0Q19PI"-->
+                                                                                                            <!--                                                                                                                         data-type="v3"-->
+                                                                                                            <!--                                                                                                                         data-action="Form"-->
+                                                                                                            <!--                                                                                                                         data-badge="bottomright"-->
+                                                                                                            <!--                                                                                                                         data-size="invisible"></div>-->
+                                                                                                            <!--                                                                                                                </div>-->
+                                                                                                            <!--                                                                                                            </div>-->
 
                                                                                                             <div class="col-12" style="margin-left: 5px">
                                                                                                                 <div class="g-recaptcha mt-3 d-flex"
@@ -387,18 +391,18 @@ if (isset($_POST["email"])) {
 
 <?php
 if(isset($mail_sent) && $mail_sent){
-?>
-<div class="error-popup" id="error-popup">
-    <div class="popup-wrap">
-        <div class="hide-popup" onclick="hidePopup()">
-            x
-        </div>
-        <div class="popup-text">
-            Form has been submitted Successfully
+    ?>
+    <div class="error-popup" id="error-popup">
+        <div class="popup-wrap">
+            <div class="hide-popup" onclick="hidePopup()">
+                x
+            </div>
+            <div class="popup-text">
+                Form has been submitted Successfully
+            </div>
         </div>
     </div>
-</div>
-<?php
+    <?php
 }
 ?>
 
