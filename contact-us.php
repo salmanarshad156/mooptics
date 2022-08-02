@@ -15,11 +15,12 @@ if (isset($_POST["email"])) {
     $description = $_POST["message"];
 
     $to_email = 'info@optergouk.com';
-    $subject = 'New query from mooptics.com';
+    $subject = 'New query from Optergo UK';
     $message = "<html><head><title>HTML email</title></head><body><strong>Name:</strong> $fname<br/><strong>Contact:</strong> $contact<br/><strong>Email:</strong> $email<br/><strong>Location:</strong> $location<br/><strong>Subject:</strong> $subject<br/><strong>Description:</strong> $description</body></html>";
 
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+	$headers .= "From: <info@optergouk.com>" . "\r\n";
 // More headers
     $secretKey = "6Le3s9UcAAAAABFTo4hpDzhUsKLtSRRSiedIkcDN";
     $responseKey = $_POST["g-recaptcha-response"];
