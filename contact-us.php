@@ -20,7 +20,8 @@ if (isset($_POST["email"])) {
 
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-    $headers .= "From: <info@optergouk.com>" . "\r\n";
+    $headers .= "From: <$email>" . "\r\n";
+    $headers .= "Reply-To: $email" . "\r\n";
 // More headers
     $secretKey = "6Le3s9UcAAAAABFTo4hpDzhUsKLtSRRSiedIkcDN";
     $responseKey = $_POST["g-recaptcha-response"];
@@ -244,7 +245,10 @@ if (isset($_POST["email"])) {
                                                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
                                                                                                                        placeholder="Phone"
                                                                                                                        required="required"
-                                                                                                                       aria-required="true">
+                                                                                                                       aria-required="true"
+                                                                                                                       >
+                                                                                                              
+                                                                                                             
                                                                                                             </div>
                                                                                                             <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100">
                                                                                                                 <label for="form-field-email"
