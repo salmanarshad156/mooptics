@@ -246,9 +246,9 @@ if (isset($_POST["email"])) {
                                                                                                                        placeholder="Phone"
                                                                                                                        required="required"
                                                                                                                        aria-required="true"
-                                                                                                                       >
-                                                                                                              
-                                                                                                             
+                                                                                                                >
+
+
                                                                                                             </div>
                                                                                                             <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100">
                                                                                                                 <label for="form-field-email"
@@ -274,17 +274,17 @@ if (isset($_POST["email"])) {
                                                                                                                        class="elementor-field elementor-size-sm  elementor-field-textual"
                                                                                                                        placeholder="City/Town">
                                                                                                             </div>
-<!--                                                                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-3186a7c elementor-col-100">-->
-<!--                                                                                                                <label for="form-field-3186a7c"-->
-<!--                                                                                                                       class="elementor-field-label elementor-screen-only">-->
-<!--                                                                                                                    Subject </label>-->
-<!--                                                                                                                <input size="1"-->
-<!--                                                                                                                       type="text"-->
-<!--                                                                                                                       name="subject"-->
-<!--                                                                                                                       id="form-field-3186a7c"-->
-<!--                                                                                                                       class="elementor-field elementor-size-sm  elementor-field-textual"-->
-<!--                                                                                                                       placeholder="Subject">-->
-<!--                                                                                                            </div>-->
+                                                                                                            <!--                                                                                                            <div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-3186a7c elementor-col-100">-->
+                                                                                                            <!--                                                                                                                <label for="form-field-3186a7c"-->
+                                                                                                            <!--                                                                                                                       class="elementor-field-label elementor-screen-only">-->
+                                                                                                            <!--                                                                                                                    Subject </label>-->
+                                                                                                            <!--                                                                                                                <input size="1"-->
+                                                                                                            <!--                                                                                                                       type="text"-->
+                                                                                                            <!--                                                                                                                       name="subject"-->
+                                                                                                            <!--                                                                                                                       id="form-field-3186a7c"-->
+                                                                                                            <!--                                                                                                                       class="elementor-field elementor-size-sm  elementor-field-textual"-->
+                                                                                                            <!--                                                                                                                       placeholder="Subject">-->
+                                                                                                            <!--                                                                                                            </div>-->
                                                                                                             <div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100 elementor-field-required">
                                                                                                                 <label for="form-field-message"
                                                                                                                        class="elementor-field-label elementor-screen-only">
