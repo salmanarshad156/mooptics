@@ -132,7 +132,7 @@ include_once "head.php";
 
                                                                                 Our team’s experience is paired with the
                                                                                 highest quality dental loupes
-                                                                                manufactured in Sweden. With xx
+                                                                                manufactured in Sweden. With 7
                                                                                 measurement points taken at every
                                                                                 fitting which are checked by up a
                                                                                 qualified optometrist, we aim to ensure
