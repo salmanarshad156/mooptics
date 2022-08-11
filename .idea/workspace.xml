@@ -150,6 +150,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1470" />
     <option name="y" value="140" />
@@ -241,7 +244,7 @@
       <workItem from="1658745553859" duration="28000" />
       <workItem from="1658745599301" duration="546000" />
       <workItem from="1659010962678" duration="2340000" />
-      <workItem from="1660220645685" duration="306000" />
+      <workItem from="1660220645685" duration="1824000" />
     </task>
     <servers />
   </component>
