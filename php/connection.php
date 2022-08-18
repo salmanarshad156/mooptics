@@ -1,8 +1,8 @@
 <?php
-$servername = "db5009561217.hosting-data.io";
-$username = "dbu2311324";
-$password = "4D!TtW7iiRgJffj";
-$db="dbs8107160";
+$servername = "127.0.0.1";
+$username = "akjdnzcrng";
+$password = "qASjzW2UdR";
+$db="akjdnzcrng";
 
 // $servername = "localhost";
 // $username = "root";
