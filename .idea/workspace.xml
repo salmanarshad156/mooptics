@@ -21,6 +21,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>srcs</find>
+      <!-- <find>srcs</find> -->
       <find>mooptics.c</find>
       <find>https://mooptics.com/wp-content/uploads/2019/06/</find>
       <find>srcset</find>
